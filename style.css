@@ -1,0 +1,238 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 3px;
+  left: 71px;
+}
+nav {
+  background: #efa65c !important;
+  /* height: 38px; */
+}
+
+/* navbar list color  */
+li a {
+  color: #6b1116 !important;
+}
+
+li a:hover {
+  font-weight: 500;
+}
+/* li a:focus {
+  font-weight: 500;
+  padding-bottom: 0px;
+  border-bottom: 5px solid #ffffff !important;
+} */
+
+.navIcons {
+  height: 26px;
+  position: relative;
+  right: -119px;
+  margin-left: 9px;
+  margin-right: 6px;
+}
+.navbar-nav {
+  position: relative;
+  right: 225px;
+}
+
+/* toggler btn */
+
+.togglerBtn {
+  height: 26px;
+  position: absolute;
+  bottom: 7px;
+  right: 20px;
+}
+.navbar-toggler:focus {
+  border: none !important;
+}
+
+/* hero div  */
+
+.hero_div {
+  background-color: #af6547;
+}
+.hero-img {
+  height: 250px;
+  width: 250px;
+}
+.hero-cut-img {
+  width: 250px;
+  height: 100px;
+}
+.hero__right {
+  position: relative;
+  top: 66px;
+}
+.hero__left {
+  position: relative;
+  left: 65px;
+}
+.hero__rightPassage {
+  width: 456px;
+}
+.bride {
+  height: 252px;
+}
+.bride-div {
+  position: absolute;
+  top: 237px;
+  right: -41px;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:active,
+.btn-outline-secondary:visited {
+  background-color: #efa65c !important;
+  color: white;
+}
+.btn-outline-secondary {
+  border-color: #efa65c !important;
+  color: #efa65c;
+}
+.trendy__notes {
+  position: relative;
+  top: 40px;
+  left: 150px;
+}
+div hr {
+  border: 2px solid #efa65c;
+  width: 277px;
+  border-radius: 5px;
+  background-color: #efa65c;
+  position: relative;
+  left: 152px;
+  top: 28px;
+}
+/* cirle */
+.dot-1 {
+  height: 20px;
+  width: 20px;
+  background-color: #f9b933;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  left: 407px;
+  bottom: 1px;
+  right: 1px;
+  border: 3px solid white;
+}
+
+.collection__men {
+  background-color: #efa65c;
+  border-radius: 4px;
+  height: 173px;
+  width: 359px;
+  margin: 10px;
+}
+
+.collection__img {
+  height: 163px;
+  position: relative;
+  top: 10px;
+}
+
+.collection__btn {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3pxpx;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 10px;
+  background: #af6547;
+  padding: 6px 18px 6px 18px;
+  text-decoration: none;
+  border: none;
+  position: relative;
+  top: 14px;
+}
+
+.collection__btn:hover {
+  text-decoration: none;
+}
+.collection {
+  margin-left: 20px;
+}
+
+/* mobile  */
+@media only screen and (max-width: 600px) {
+  hr,
+  .bride-div,
+  .dot-1,
+  .dot-2,
+  .trendy__notes {
+    display: none;
+  }
+}
+.bestsale__tag hr {
+  border: 1px solid #6b1116;
+  width: 90vw;
+  border-radius: 5px;
+  background-color: #6b1116;
+  position: relative;
+}
+.bestsale__tag {
+  display: inline-block;
+
+  position: relative;
+  right: 96px;
+}
+.dot-3 {
+  height: 12px;
+  width: 12px;
+  background-color: #6b1116;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  left: 407px;
+  bottom: 1px;
+  right: 1px;
+  border: 3px solid brown;
+}
+.dot-4 {
+  height: 12px;
+  width: 12px;
+  background-color: #6b1116;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  left: 407px;
+  bottom: 1px;
+  right: 1px;
+  border: 3px solid brown;
+}
+/* rouded ball with line  */
+.li {
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  line-height: 5em;
+  border-radius: 1em;
+  background: #6b1116;
+  margin: 0 1em;
+  display: inline-block;
+  color: white;
+  position: relative;
+}
+
+.li::before {
+  content: "";
+  position: absolute;
+  top: 0.9em;
+  left: -4em;
+  width: 90vw;
+  height: 0.2em;
+  background: #6b1116;
+  z-index: -1;
+}
+
+.li:first-child::before {
+  display: none;
+}
